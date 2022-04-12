@@ -1,0 +1,4 @@
+/home/alxndra/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/alxndra/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/ninja/linux/ninja -G Ninja "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Calki"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Calki/cmake-build-debug
