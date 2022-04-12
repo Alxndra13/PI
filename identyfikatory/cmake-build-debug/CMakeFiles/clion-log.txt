@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/identyfikatory Select CMakeLists.txt
