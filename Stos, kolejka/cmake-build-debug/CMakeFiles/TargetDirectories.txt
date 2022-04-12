@@ -1,0 +1,3 @@
+/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Stos, kolejka/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Stos, kolejka/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Stos, kolejka/cmake-build-debug/CMakeFiles/Stos__kolejka.dir
