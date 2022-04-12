@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "identyfikatory"
+			"path" : "Identyfikatory"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "identyfikatory::@6890427a1f51a3e7e1df",
+	"id" : "Identyfikatory::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "identyfikatory",
-	"nameOnDisk" : "identyfikatory",
+	"name" : "Identyfikatory",
+	"nameOnDisk" : "Identyfikatory",
 	"paths" : 
 	{
 		"build" : ".",

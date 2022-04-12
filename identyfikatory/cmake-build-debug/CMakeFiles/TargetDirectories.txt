@@ -1,3 +1,0 @@
-/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/identyfikatory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/identyfikatory/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/identyfikatory/cmake-build-debug/CMakeFiles/identyfikatory.dir
