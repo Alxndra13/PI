@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Implementacja_macierzy",
+					"name" : "Uogolnione_wektory",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Implementacja_macierzy::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Implementacja_macierzy-Debug-2601a6a6aa1dc19fee20.json",
-					"name" : "Implementacja_macierzy",
+					"id" : "Uogolnione_wektory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Uogolnione_wektory-Debug-0951db5d204bf662e95a.json",
+					"name" : "Uogolnione_wektory",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Implementacja_macierzy/cmake-build-debug",
-		"source" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Implementacja_macierzy"
+		"build" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Uogolnione wektory/cmake-build-debug",
+		"source" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Uogolnione wektory"
 	},
 	"version" : 
 	{

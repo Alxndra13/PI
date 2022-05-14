@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Implementacja_macierzy"
+			"path" : "Uogolnione_wektory"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "Implementacja_macierzy::@6890427a1f51a3e7e1df",
+	"id" : "Uogolnione_wektory::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Implementacja_macierzy",
-	"nameOnDisk" : "Implementacja_macierzy",
+	"name" : "Uogolnione_wektory",
+	"nameOnDisk" : "Uogolnione_wektory",
 	"paths" : 
 	{
 		"build" : ".",

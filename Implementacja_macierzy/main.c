@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stddef.h>
 #include <string.h>
 
 #define TAB_SIZE  1000
@@ -8,52 +7,106 @@
 
 double get(int cols, int row, int col, const double *A)
 {
-    return 0;
+    return A[row*cols + col];
 }
 
 void set(int cols, int row, int col, double *A, double value)
 {
-    return;
+    A[row*cols + col] = value;
 }
 
 void prod_mat(int rowsA, int colsA, int colsB, double *A, double *B, double *AB)
 {
-    return;
+    double sum, a, b;
+    for (int i = 0; i < rowsA; i++)
+    {
+        for (int j = 0; j < colsB; j++)
+        {
+            sum = 0;
+            for (int k = 0; k < colsA; k++) {
+                a = get(colsA, i, k, A);
+                b = get(colsB, k, j, B);
+                sum = sum + a * b;
+            }
+            set(colsB,i,j,AB,sum);
+        }
+    }
 }
 
 void read_mat(int rows, int cols, double *t)
 {
-    return;
+    int i = rows * cols;
+    for(int j = 0; j < i; j++)
+        scanf("%lf",&t[j]);
 }
 
 void print_mat(int rows, int cols, double *t)
 {
-    return;
+    int d = rows*cols;
+    for(int i = 0; i < d; i++)
+    {
+        printf("%0.2f ",t[i]);
+        if ((i+1) % cols == 0)
+            printf("\n");
+    }
+    printf("\n");
 }
 
 int read_char_lines(char *tab[])
 {
-    return 0 ;
+    char line[BUF_SIZE];
+    int i = 0;
+    while(fgets(line,BUF_SIZE,stdin))
+    {
+        line[strlen(line)] = '\0';
+        tab[i] = malloc(strlen(line));
+        strcpy(tab[i],line);
+        i++;
+    }
+    return i;
 }
 
 void write_char_line(char *tab[], int n)
 {
-    return;
+    printf("%s ", tab[n]);
 }
 
 void delete_lines(char *tab[], int line_count)
 {
-    return;
+    for(int i = 0; i < line_count; i++)
+        free(tab[i]);
 }
 
 int read_dbl_lines_v1(double *ptr_tab[])
 {
-    return 0;
+    int i = 0, j = 0;
+    char* k;
+    char line[BUF_SIZE];
+    double number;
+    while(fgets(line,BUF_SIZE,stdin))
+    {
+        k = line;
+        while(k[0] != '\n')
+        {
+            number = strtod(k,&k);
+            ptr_tab[i][j] = number;
+            j++;
+        }
+        i++;
+        ptr_tab[i] = &ptr_tab[i-1][j];
+        j = 0;
+    }
+    return i;
 }
 
 void write_dbl_line_v1(double *ptr_tab[], int n)
 {
-    return;
+    int i = 0;
+    while(&ptr_tab[n][i] != &ptr_tab[n+1][0])
+    {
+        printf("%0.2f ",ptr_tab[n][i]);
+        i++;
+    }
 }
 
 int main(void) {
@@ -93,3 +146,4 @@ int main(void) {
     }
     return 0;
 }
+

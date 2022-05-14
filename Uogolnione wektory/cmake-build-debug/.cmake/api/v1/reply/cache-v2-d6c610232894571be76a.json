@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Implementacja_macierzy/cmake-build-debug"
+			"value" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Uogolnione wektory/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -451,7 +451,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Implementacja_macierzy"
+			"value" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Uogolnione wektory"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Implementacja_macierzy"
+			"value" : "Uogolnione_wektory"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -974,7 +974,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Implementacja_macierzy_BINARY_DIR",
+			"name" : "Uogolnione_wektory_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -983,10 +983,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Implementacja_macierzy/cmake-build-debug"
+			"value" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Uogolnione wektory/cmake-build-debug"
 		},
 		{
-			"name" : "Implementacja_macierzy_IS_TOP_LEVEL",
+			"name" : "Uogolnione_wektory_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -998,7 +998,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Implementacja_macierzy_SOURCE_DIR",
+			"name" : "Uogolnione_wektory_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1007,7 +1007,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Implementacja_macierzy"
+			"value" : "/home/alxndra/Pulpit/Studia/SEMESTR 2/PROGRAMOWANIE IMPERATYWNE/Uogolnione wektory"
 		}
 	],
 	"kind" : "cache",
